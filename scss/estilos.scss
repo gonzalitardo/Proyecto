@@ -1,6 +1,10 @@
 a:hover{
     background-color: gray;
 }
-h3{
-    color: rgba(0, 0, 0, 0.644);
+.container-fluid{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
 }
