@@ -1,0 +1,41 @@
+header {
+  background-color: #2b2b2b; }
+  header nav {
+    padding: 20px; }
+    header nav ul li {
+      list-style-type: none; }
+      header nav ul li a {
+        text-decoration: none;
+        font-size: 1.4rem; }
+
+.btn--twitter {
+  background-color: #55acee; }
+
+.btn--facebook {
+  background-color: #3a5795; }
+
+.btn--send-mail {
+  background-color: #c25e30; }
+
+div {
+  background-color: #00276b;
+  text-align: center;
+  padding: 1rem;
+  font-size: 35px; }
+
+.btn, .btn2--reiniciar, .btn3--cancelar {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black; }
+
+.btn2--reiniciar {
+  background-color: green;
+  color: yellow; }
+
+.btn3--cancelar {
+  background-color: #3d3d3d;
+  color: yellow; }

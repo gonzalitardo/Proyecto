@@ -1,0 +1,61 @@
+header{
+    background-color: rgb(43, 43, 43);
+nav{
+    padding: 20px;
+    ul{
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+}
+$redes:(
+    twitter: #55acee,
+    facebook: #3a5795,
+    send-mail: #c25e30,
+);
+
+@each $red, $color in $redes{
+    .btn--#{$red}{
+        background-color: $color;
+    }
+}
+$estilos:(
+    color: #00276b,
+    centro: center,
+    tFuente: 35px,
+    1rem: 1rem
+);
+
+div{
+    background-color: map-get($estilos, color);
+    text-align: map-get($estilos, centro);
+    padding: map-get($estilos, 1rem);
+    font-size:map-get($estilos, tFuente);
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.btn2--reiniciar{
+    @extend .btn;
+    background-color: green;
+    color: yellow;
+}
+
+.btn3--cancelar{
+    @extend .btn;
+    background-color: rgb(61, 61, 61);
+    color: yellow;
+}
