@@ -1,6 +1,7 @@
 header {
-  background-color: #2b2b2b; }
+  background-color: black; }
   header nav {
+    background-color: black;
     padding: 20px; }
     header nav ul li {
       list-style-type: none; }
