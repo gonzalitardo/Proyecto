@@ -21,6 +21,8 @@
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"
   },
-  "dependencies": {},
-  "description": "En el index cambié el tittle por uno describiendo en donde está situado el usuario, al igual que el resto de secciones les puse en el tittle la indicacion de si estan en inicio/productos/contacto."
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "description": "Terminando de arreglar los ultimos detalles, colores, posiciones, etc."
 }
